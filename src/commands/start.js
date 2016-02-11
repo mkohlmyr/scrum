@@ -17,10 +17,10 @@ export function register(cli) {
                 const w = session.windows[index];
                 const hb_render_execs = handlebars.compile(w.execs);
                 const execs = hb_render_execs(context);
+
                 yield `screen -S ${session_name} -X screen -t \"${w.title}\" sh -c \"${execs}\"\n`;
             }
-            // wip remove first window
-            //yield `screen-S ${session_name} -p 0 -X stuff 'exit\'"\n`;
+            yield `screen -S ${session_name} -p 0 -X stuff $'exit\n'\n`;
         });
     });
 }
