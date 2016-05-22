@@ -4,7 +4,7 @@
 
 What is scrum?
 ------
-Scrum is an interface for GNU Screen which enables the use of JSON files (a "scrumfile") to configure groups of services or commands to run together in a single GNU Screen session. A potential use-case would be if you are developing for a microservices architecture and need to different services together as a group.
+Scrum is an interface for GNU Screen which enables the use of JSON files (a "scrumfile") to configure groups of services or commands to run together in a single GNU Screen session. A potential use-case would be if you are developing for a microservices architecture and need to run different services together as a group.
 
 Scrumfile
 ------
