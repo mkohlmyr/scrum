@@ -11,9 +11,9 @@ Scrum is a CLI proxy for GNU Screen which enables the use of JSON files (a "scru
 Scrumfile
 ------
 Scrumfiles can be provided in three ways and will be used in the following order of preference by the CLI.
-1. A `.json` file provided with the flag `--scrumfile ../../myscrumfile.json`.
-2. A file named `scrumfile.json` under the current directory in which scrum is being invoked.
-3. A file named `scrumfile.json` under the `~/` directory.
+ 1. A `.json` file provided with the flag `--scrumfile ../../myscrumfile.json`.
+ 2. A file named `scrumfile.json` under the current directory in which scrum is being invoked.
+ 3. A file named `scrumfile.json` under the `~/` directory.
 Scrumfiles adhere to a very simple structure, making it easy to add new sessions and windows when needed. The following is an example of a scrumfile that defines a single session with two windows (processes).
 ```
 {
