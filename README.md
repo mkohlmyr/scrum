@@ -31,6 +31,7 @@ Available commands
  - `scrum stop <session>`
  - `scrum version`
  - `scrum version latest`
+ - `scrum sessions`
 
 Dynamic flags
 ------

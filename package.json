@@ -1,6 +1,6 @@
 {
   "name": "scrum",
-  "version": "1.3.3",
+  "version": "1.3.4",
   "description": "GNU Screen Session Management",
   "main": "lib",
   "bin": "bin/scrum.js",
