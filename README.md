@@ -6,7 +6,12 @@ Screen is a essentially a terminal multiplexer. You can run multiple processes a
 
 What is scrum?
 ------
-Scrum is a CLI proxy for GNU Screen which enables the use of JSON files (a "scrumfile") to configure groups of services or commands to run together in a single GNU Screen session. An example use-case would be if you are developing for a microservices architecture and need to run many different services at the same time.
+Scrum is a CLI proxy for GNU Screen which enables the use of JSON files (a "scrumfile") to configure groups of services or commands to run together in a single GNU Screen session.
+
+#### When does scrum come in handy?
+ - You are developing a microservices architecture and need to run many different services together at the same time.
+ - You are developing a web application and want to run your web server, task runners and a database shell in the background but with easy access.
+
 
 Scrumfile
 ------
