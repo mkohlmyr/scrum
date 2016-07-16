@@ -2,7 +2,7 @@
 
 What is GNU Screen?
 ------
-Screen is a essentially a terminal multiplexer. You can run multiple processes and access them all through one terminal. You can switch between processes easily and even detach entirely until you actually need to interact with the process.
+Screen is a essentially a terminal multiplexer. You can run multiple processes and access them all through one terminal. You can switch between processes easily and even detach entirely until you actually need to interact with the process. GNU Screen is a hard dependency of scrum and can (must) be installed from the standard repositories of most linux distributions.
 
 What is scrum?
 ------
