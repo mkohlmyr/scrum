@@ -42,7 +42,7 @@ Dynamic flags
 ------
 When a group is started by scrum, all the commands to be executed for it will be compiled and rendered as handlebars templates with a context that contains two variables `opt` and `env`.
 
-If you run `scrum start my-serfices -f true` `{{opt.f}}` will be replaced by `true` and can be used in the commands that will execute. Under `env` you have access to the username (`env.user`), home directory (`env.home`), working directory (`env.pwd`), terminal name (`env.term`), shell name (`env.shell`), platform (`env.platform`) and process id (`env.pid`) as provided by the [Node.js process API](https://nodejs.org/api/process.html). To correctly start the session we defined in the above example scrumfile, we would run `scrum start session_1 -n somevalue -w othervalue`.
+If you run `scrum start my-services -f true` `{{opt.f}}` will be replaced by `true` and can be used in the commands that will execute. Under `env` you have access to the username (`env.user`), home directory (`env.home`), working directory (`env.pwd`), terminal name (`env.term`), shell name (`env.shell`), platform (`env.platform`) and process id (`env.pid`) as provided by the [Node.js process API](https://nodejs.org/api/process.html). To correctly start the session we defined in the above example scrumfile, we would run `scrum start session_1 -n somevalue -w othervalue`.
 
 Links
 ------
